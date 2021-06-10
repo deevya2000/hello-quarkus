@@ -91,8 +91,10 @@
         <groupId>com.google.cloud.tools</groupId>
         <artifactId>jib-maven-plugin</artifactId>
         <version>2.4.0</version>
-          <configuration>
-            <mainClass>org.acme.GreetingResource</mainClass>
+        <configuration>
+                <container>
+                    <mainClass>org.acme.GreetingResource</mainClass>
+                </container>
         </configuration>
         </plugin>
     </plugins>
