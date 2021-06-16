@@ -6,4 +6,4 @@ spec:
  template:
   spec:
    containers:
-    - image: image-registry.openshift-image-registry.svc:5000/test-proj/notification-service
+    - image: image-registry.openshift-image-registry.svc:5000/test-quarkus-native/notification-service
